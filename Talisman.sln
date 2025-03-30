@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{CF6005D6-F495-4B94-8D79-5F760671A06E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Talisman", "Talisman\Talisman.vcxproj", "{28675C32-59AE-4CAC-A9EC-0E422548E5E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28675C32-59AE-4CAC-A9EC-0E422548E5E1}.Debug|x64.ActiveCfg = Debug|x64
+		{28675C32-59AE-4CAC-A9EC-0E422548E5E1}.Debug|x64.Build.0 = Debug|x64
+		{28675C32-59AE-4CAC-A9EC-0E422548E5E1}.Release|x64.ActiveCfg = Release|x64
+		{28675C32-59AE-4CAC-A9EC-0E422548E5E1}.Release|x64.Build.0 = Release|x64
+		{CF6005D6-F495-4B94-8D79-5F760671A06E}.Debug|x64.ActiveCfg = Debug|x64
+		{CF6005D6-F495-4B94-8D79-5F760671A06E}.Debug|x64.Build.0 = Debug|x64
+		{CF6005D6-F495-4B94-8D79-5F760671A06E}.Release|x64.ActiveCfg = Release|x64
+		{CF6005D6-F495-4B94-8D79-5F760671A06E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {020C52F2-3A43-4F44-B03C-59CC7C9793D4}
+	EndGlobalSection
+EndGlobal
