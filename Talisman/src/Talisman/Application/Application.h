@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Core.h"
+#include "../Base.h"
 
 namespace Talisman
 {
@@ -9,10 +9,12 @@ namespace Talisman
 
 	public:
 		Application();
-		virtual ~Application();
 
 	public:
 		void Run();
+
+	public:
+		virtual ~Application();
 
 	};
 

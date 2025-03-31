@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Talisman\Core.h">
+    <ClInclude Include="src\Talisman\Base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Talisman\Application\Application.h">
@@ -27,9 +27,18 @@
     <ClInclude Include="src\Talisman\EntryPoint\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Talisman\Logger\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Talisman\Logger\LoggerLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Talisman\Application\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Talisman\Logger\Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

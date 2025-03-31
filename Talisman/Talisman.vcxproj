@@ -58,6 +58,8 @@
       <PreprocessorDefinitions>TLM_PLATFORM_WINDOWS;TLM_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -73,6 +75,8 @@
       <PreprocessorDefinitions>TLM_PLATFORM_WINDOWS;TLM_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,11 +88,14 @@
   <ItemGroup>
     <ClInclude Include="src\Talisman.h" />
     <ClInclude Include="src\Talisman\Application\Application.h" />
-    <ClInclude Include="src\Talisman\Core.h" />
+    <ClInclude Include="src\Talisman\Base.h" />
     <ClInclude Include="src\Talisman\EntryPoint\EntryPoint.h" />
+    <ClInclude Include="src\Talisman\Logger\Logger.h" />
+    <ClInclude Include="src\Talisman\Logger\LoggerLevel.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Talisman\Application\Application.cpp" />
+    <ClCompile Include="src\Talisman\Logger\Logger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
